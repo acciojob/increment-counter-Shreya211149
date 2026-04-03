@@ -4,7 +4,7 @@ let button=document.getElementById("btn");
 let count=0;
 
 button.addEventListener("click",function(){
-	const currentValue = Number(counter.innerText);
+	const currentValue = Number(p.innerText);
 	alert(currentValue);           // un-incremented value
 	counter.innerText = currentValue + 1;
 });
