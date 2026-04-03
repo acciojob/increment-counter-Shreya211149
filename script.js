@@ -1,10 +1,10 @@
 //your JS code here. If required.
-let p=document.getElementById("counter");
-let button=document.getElementById("btn");
+let counter=document.getElementById("counter");
+let incrementBtn=document.getElementById("incrementBtn");
 let count=0;
 
-button.addEventListener("click",function(){
-	const currentValue = Number(p.innerText);
+incrementBtn.addEventListener("click",function(){
+	const currentValue = Number(counter.innerText);
 	alert(currentValue);           // un-incremented value
 	counter.innerText = currentValue + 1;
 });
